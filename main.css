@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  line-height: 22px;
+  line-height: 24px;
 }
 
 .container {
@@ -12,6 +12,11 @@ body {
 
 .right {
   padding: 0 40px;
+}
+
+.right a {
+  color: blue;
+  text-decoration: none;
 }
 
 nav,
