@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 22px;
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+}
+
+.right {
+  padding: 0 40px;
+}
+
+nav,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
