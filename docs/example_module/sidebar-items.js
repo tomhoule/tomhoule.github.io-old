@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["example_module",""]],"struct":[["ExampleModule",""]]});
