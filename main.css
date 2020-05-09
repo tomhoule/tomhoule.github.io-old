@@ -7,31 +7,17 @@ body {
 
 .container {
   display: flex;
-  padding: 40px;
+  padding: 20px;
 }
 
-.right {
-  padding: 0 40px;
+.card {
+  margin: 60px auto;
+  border-radius: 20%;
+  padding: 100px 100px;
+  border: solid 2px #555;
 }
 
-.right a {
+.card a {
   color: blue;
   text-decoration: none;
-}
-
-nav,
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  list-style: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
 }
