@@ -5,19 +5,21 @@ body {
   line-height: 24px;
 }
 
+.card a {
+  color: blue;
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   padding: 20px;
 }
 
-.card {
-  margin: 60px auto;
-  border-radius: 20%;
-  padding: 100px 100px;
-  border: solid 2px #555;
-}
-
-.card a {
-  color: blue;
-  text-decoration: none;
+@media screen and (min-width: 900px) {
+  .card {
+    margin: 60px auto;
+    border-radius: 20%;
+    padding: 100px 100px;
+    border: solid 2px #555;
+  }
 }
